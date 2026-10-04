@@ -17,16 +17,14 @@ const OUT = new URL(".", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
 const DEALER = { name: "Sunset Motors (test)", phone: "(602) 555-0142" };
 
 const CARS = [
-  { stock: "SM1024", vin: "1HGCV1F35MA012345", year: 2021, make: "Honda", model: "Accord", trim: "Sport", body: "Sedan", color: "Crystal Black Pearl", trans: "Automatic (CVT)", drive: "FWD", fuel: "Gasoline", miles: 48231, price: 22995, hue: 220,
+  { stock: "SM1024", vin: "1HGCV1F35MA012345", year: 2021, make: "Honda", model: "Accord", trim: "Sport", body: "Sedan", color: "Crystal Black Pearl", trans: "Automatic (CVT)", drive: "FWD", fuel: "Gasoline", miles: 48231, price: 21995, hue: 220,
     notes: "One owner, clean title. Sport trim with 19-inch wheels, backup camera and Apple CarPlay. New front tires.", sold: false },
-  { stock: "SM1025", vin: "5NMS2DAJXMH123456", year: 2021, make: "Hyundai", model: "Santa Fe", trim: "SEL", body: "SUV", color: "Quartz White", trans: "Automatic (8-speed)", drive: "AWD", fuel: "Gasoline", miles: 61442, price: 21495, hue: 30,
+  { stock: "SM1025", vin: "5NMS2DAJXMH123456", year: 2021, make: "Hyundai", model: "Santa Fe", trim: "SEL", body: "SUV", color: "Quartz White", trans: "Automatic (8-speed)", drive: "AWD", fuel: "Gasoline", miles: 61950, price: 20995, hue: 30,
     notes: "Clean title. AWD, heated front seats, blind-spot monitoring. Serviced at our shop.", sold: false },
   { stock: "SM1026", vin: "1FMCU9BZ8MUA23456", year: 2021, make: "Ford", model: "Escape", trim: "SE Hybrid", body: "SUV", color: "Iconic Silver Metallic", trans: "Automatic (eCVT)", drive: "AWD", fuel: "Hybrid", miles: 54108, price: 20995, hue: 190,
-    notes: "One owner, clean title. Hybrid AWD, about 40 mpg combined. Two keys.", sold: false },
+    notes: "One owner, clean title. Hybrid AWD, about 40 mpg combined. Two keys.", sold: true },
   { stock: "SM1027", vin: "3CZRU5H50MM345678", year: 2021, make: "Honda", model: "HR-V", trim: "EX", body: "SUV", color: "Aegean Blue Metallic", trans: "Automatic (CVT)", drive: "FWD", fuel: "Gasoline", miles: 39821, price: 23495, hue: 205,
-    notes: "Clean title. Sunroof, heated seats, Honda Sensing. Low miles.", sold: false },
-  { stock: "SM1028", vin: "1G1ZD5ST8MF456789", year: 2021, make: "Chevrolet", model: "Malibu", trim: "LT", body: "Sedan", color: "Summit White", trans: "Automatic (CVT)", drive: "FWD", fuel: "Gasoline", miles: 67903, price: 17995, hue: 0,
-    notes: "Clean title. Remote start, 8-inch touchscreen, rear camera.", sold: false },
+    notes: "Clean title. Sunroof, heated seats, Honda Sensing, remote start. Under 40k miles.", sold: false },
 ];
 
 const PHOTOS_PER_CAR = 4;
