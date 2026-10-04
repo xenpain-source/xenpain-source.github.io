@@ -1,0 +1,8 @@
+# Test site: only DealerLoft's importer may read it.
+User-agent: DealerLoftBot
+Allow: /
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://xenpain-source.github.io/sitemap.xml
