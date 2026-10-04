@@ -17,8 +17,8 @@ const OUT = new URL(".", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
 const DEALER = { name: "Sunset Motors (test)", phone: "(602) 555-0142" };
 
 const CARS = [
-  { stock: "SM1024", vin: "1HGCV1F35MA012345", year: 2021, make: "Honda", model: "Accord", trim: "Sport", body: "Sedan", color: "Crystal Black Pearl", trans: "Automatic (CVT)", drive: "FWD", fuel: "Gasoline", miles: 48231, price: 21995, hue: 220,
-    notes: "One owner, clean title. Sport trim with 19-inch wheels, backup camera and Apple CarPlay. New front tires.", sold: false },
+  { stock: "SM1024", vin: "1HGCV1F35MA012345", year: 2021, make: "Honda", model: "Accord", trim: "Sport", body: "Sedan", color: "Crystal Black Pearl", trans: "Automatic (CVT)", drive: "FWD", fuel: "Gasoline", miles: 48231, price: 21495, hue: 220,
+    notes: "One owner, clean title. Sport trim with 19-inch wheels, backup camera and Apple CarPlay. New front tires. WEBSITE NOTES CHANGED.", sold: false },
   { stock: "SM1025", vin: "5NMS2DAJXMH123456", year: 2021, make: "Hyundai", model: "Santa Fe", trim: "SEL", body: "SUV", color: "Quartz White", trans: "Automatic (8-speed)", drive: "AWD", fuel: "Gasoline", miles: 61950, price: 20995, hue: 30,
     notes: "Clean title. AWD, heated front seats, blind-spot monitoring. Serviced at our shop.", sold: false },
   { stock: "SM1026", vin: "1FMCU9BZ8MUA23456", year: 2021, make: "Ford", model: "Escape", trim: "SE Hybrid", body: "SUV", color: "Iconic Silver Metallic", trans: "Automatic (eCVT)", drive: "AWD", fuel: "Hybrid", miles: 54108, price: 20995, hue: 190,
